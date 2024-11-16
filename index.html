@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Barang dan Pembayaran</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Daftar Barang</h1>
+        </header>
+
+        <main>
+            <div class="product-list">
+                <div class="product" data-name="Barang A" data-price="100000">
+                    <h2>Barang A</h2>
+                    <p>Harga: Rp 100.000</p>
+                    <button class="select-btn">Pilih</button>
+                </div>
+                <div class="product" data-name="Barang B" data-price="150000">
+                    <h2>Barang B</h2>
+                    <p>Harga: Rp 150.000</p>
+                    <button class="select-btn">Pilih</button>
+                </div>
+                <!-- Add more products here -->
+            </div>
+            
+            <div class="payment-form" style="display: none;">
+                <h2>Isi Data Pembeli</h2>
+                <form id="form-pembeli">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <button type="submit">Bayar</button>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <!-- Background Image -->
+    <div class="background">
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9868d92e-3d4d-4ef5-bb0d-fcef4e2b6ef7/dhpq4xy-21c5087f-6484-4454-a800-cfa0d370cdc5.jpg" alt="Minecraft Background" />
+    </div>
+</body>
+</html>
